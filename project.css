@@ -1,0 +1,89 @@
+
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: brown;
+    overflow: hidden;
+}
+header .logo{
+    width: 20%;
+    float: left;
+}
+header .logo img{
+            width: 20px;
+}
+
+header .menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+        list-style-type: none;
+}
+.menu ul li{
+            float: left;
+}
+.menu ul li a{
+        text-decoration: none;
+        padding: 36px 20px;
+        margin: 20px solid ;
+        color: rgb(3, 3, 3);
+        display: inline-block;
+        font-size: 20px;
+        border: 2px solid red;
+}
+.menu ul li a:hover{
+    background-color: azure;
+}
+#heroarea{
+    background:url('assets/img/photo.jpg');
+}
+#heroarea h1{
+    padding: 300px 70px;
+    color: red;
+    font: size 80px;
+    background-position: center;
+}
+/*main area style*/
+#mainarea{}
+#mainarea div {
+    width: 30%;
+    float: right;
+    margin: 20px ;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    transition: 4s;
+}
+#mainarea div h1{
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+#mainarea .box1{
+        background-color: chocolate;
+}
+#mainarea .box2{
+        background-color: aqua;
+}
+#mainarea .box3{
+        background-color: brown;
+}
+#mainarea .box1:hover{
+        transform: rotate(360deg);
+        background-color: blue;
+}
+footer{
+    clear: both;
+    color: rgb(230, 123, 123);
+    padding: 50px 40px ;
+    text-align: center;
+    background-color: black;
+}
